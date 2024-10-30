@@ -2,18 +2,18 @@ package com.tecsup.petclinic.services;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.test.context.SpringBootTest;
+import com.tecsup.petclinic.entities.Owner;
+import com.tecsup.petclinic.repositories.OwnerRepository;
+
 
 @SpringBootTest
 @Slf4j
 public class OwnerServiceTest {
 
-	//@Autowired
-   //	private OwnerService ownerService;
+	@Autowired
+   	private OwnerService ownerService;
 
-	/**
-	 * 
-	 */
-	/*
+
 	@Test
 	public void testFindOwnerById() {
 
@@ -33,5 +33,5 @@ public class OwnerServiceTest {
 		assertEquals(NAME, owner.getName());
 
 	}
-	*/
+
 }
